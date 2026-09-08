@@ -1,0 +1,42 @@
+{
+  "Software Development Engineer (SDE)": {
+    "required": ["Python", "Java", "C++", "Data Structures", "Algorithms", "Git", "REST APIs", "SQL"],
+    "preferred": ["System Design", "Kubernetes", "Docker", "AWS", "Go", "TypeScript", "Microservices", "CI/CD"]
+  },
+  "Frontend Engineer": {
+    "required": ["HTML", "CSS", "JavaScript", "React", "Git", "REST APIs", "Responsive Design"],
+    "preferred": ["TypeScript", "Next.js", "Vue.js", "Webpack", "Testing (Jest)", "UI/UX", "Tailwind CSS", "GraphQL"]
+  },
+  "Backend Engineer": {
+    "required": ["Python", "Java", "Node.js", "SQL", "REST APIs", "Git", "Databases"],
+    "preferred": ["Go", "PostgreSQL", "MongoDB", "Redis", "Kafka", "Docker", "Microservices", "System Design"]
+  },
+  "Data Engineer": {
+    "required": ["Python", "SQL", "ETL Pipelines", "Data Warehousing", "Apache Spark", "Git"],
+    "preferred": ["Airflow", "dbt", "BigQuery", "Snowflake", "Kafka", "AWS", "Scala", "Data Modeling"]
+  },
+  "Machine Learning Engineer": {
+    "required": ["Python", "Machine Learning", "TensorFlow", "PyTorch", "scikit-learn", "SQL", "Statistics"],
+    "preferred": ["Deep Learning", "MLOps", "Kubernetes", "Feature Engineering", "NLP", "Computer Vision", "Cloud ML", "Docker"]
+  },
+  "Data Scientist": {
+    "required": ["Python", "SQL", "Statistics", "Machine Learning", "Data Analysis", "Pandas", "NumPy"],
+    "preferred": ["R", "Tableau", "Spark", "A/B Testing", "Deep Learning", "Data Visualization", "Experiment Design", "Communication"]
+  },
+  "DevOps / SRE Engineer": {
+    "required": ["Linux", "Docker", "Kubernetes", "CI/CD", "Git", "Shell Scripting", "Cloud (AWS/GCP/Azure)"],
+    "preferred": ["Terraform", "Ansible", "Prometheus", "Grafana", "Python", "Go", "Incident Management", "Networking"]
+  },
+  "Product Manager": {
+    "required": ["Product Roadmapping", "User Research", "Data Analysis", "Stakeholder Management", "PRD Writing", "Agile"],
+    "preferred": ["SQL", "A/B Testing", "Figma", "OKR Frameworks", "Market Research", "Competitive Analysis", "Go-To-Market"]
+  },
+  "AI/LLM Engineer": {
+    "required": ["Python", "LLMs", "Prompt Engineering", "LangChain", "OpenAI API", "Vector Databases", "REST APIs"],
+    "preferred": ["RAG", "Fine-tuning", "Google ADK", "LangGraph", "Embeddings", "FastAPI", "Docker", "Evaluation Frameworks"]
+  },
+  "Cloud / Solutions Architect": {
+    "required": ["Cloud (AWS/GCP/Azure)", "System Design", "Networking", "Security", "Databases", "Infrastructure as Code"],
+    "preferred": ["Terraform", "Kubernetes", "Microservices", "Cost Optimization", "Solution Selling", "Python", "Go"]
+  }
+}

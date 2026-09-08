@@ -1,0 +1,230 @@
+{
+  "sde": {
+    "label": "Software Development Engineer",
+    "questions": [
+      {
+        "id": "sde_1",
+        "question": "Explain the difference between a stack and a queue. When would you use each?",
+        "hints": ["LIFO vs FIFO", "Use cases: undo operations vs task scheduling"],
+        "good_answer_keywords": ["LIFO", "FIFO", "stack applications", "queue applications"]
+      },
+      {
+        "id": "sde_2",
+        "question": "What is the time and space complexity of a binary search? Walk me through the algorithm.",
+        "hints": ["O(log n) time", "Divide and conquer on sorted array"],
+        "good_answer_keywords": ["O(log n)", "sorted", "mid", "left half", "right half"]
+      },
+      {
+        "id": "sde_3",
+        "question": "You're designing a URL shortener like bit.ly. What components would your system need?",
+        "hints": ["Hash function", "Distributed storage", "Redirect logic", "Analytics"],
+        "good_answer_keywords": ["hashing", "database", "cache", "redirect", "collision"]
+      },
+      {
+        "id": "sde_4",
+        "question": "What's the difference between an abstract class and an interface? Give a real-world example of when you'd use each.",
+        "hints": ["Abstract class: shared base with some implementation", "Interface: contract without implementation"],
+        "good_answer_keywords": ["abstract", "interface", "inheritance", "polymorphism", "contract"]
+      },
+      {
+        "id": "sde_5",
+        "question": "Tell me about a time you had to debug a production issue under time pressure. What was your approach?",
+        "hints": ["STAR format", "Systematic debugging", "Logs and metrics"],
+        "good_answer_keywords": ["logs", "reproduce", "rollback", "root cause", "fix", "monitoring"]
+      },
+      {
+        "id": "sde_6",
+        "question": "How does Git branching work? Describe your ideal Git workflow for a team of 5 engineers.",
+        "hints": ["Feature branches", "PRs", "main/develop", "merge vs rebase"],
+        "good_answer_keywords": ["branch", "pull request", "merge", "main", "CI", "review"]
+      },
+      {
+        "id": "sde_7",
+        "question": "What is a REST API? What are the key HTTP methods and when would you use each?",
+        "hints": ["GET, POST, PUT, PATCH, DELETE", "Stateless", "Resource-based URLs"],
+        "good_answer_keywords": ["GET", "POST", "PUT", "DELETE", "stateless", "JSON", "HTTP"]
+      }
+    ]
+  },
+  "data": {
+    "label": "Data Engineer / Data Scientist",
+    "questions": [
+      {
+        "id": "data_1",
+        "question": "What is the difference between a data warehouse and a data lake? When would you choose one over the other?",
+        "hints": ["Structured vs unstructured", "Schema-on-read vs schema-on-write"],
+        "good_answer_keywords": ["structured", "unstructured", "schema", "Redshift", "BigQuery", "S3", "Snowflake"]
+      },
+      {
+        "id": "data_2",
+        "question": "Write a SQL query to find the top 3 customers by total purchase amount from a `transactions` table (columns: customer_id, amount, date).",
+        "hints": ["GROUP BY", "ORDER BY DESC", "LIMIT"],
+        "good_answer_keywords": ["SELECT", "GROUP BY", "SUM", "ORDER BY", "LIMIT", "customer_id"]
+      },
+      {
+        "id": "data_3",
+        "question": "What is the difference between supervised and unsupervised learning? Give one example of each.",
+        "hints": ["Supervised: labeled data", "Unsupervised: find structure"],
+        "good_answer_keywords": ["labeled", "classification", "regression", "clustering", "k-means", "PCA"]
+      },
+      {
+        "id": "data_4",
+        "question": "What is overfitting and how do you prevent it in a machine learning model?",
+        "hints": ["Overfitting = model memorizes training data", "Regularization, dropout, cross-validation"],
+        "good_answer_keywords": ["overfitting", "regularization", "dropout", "cross-validation", "train/test split", "L1", "L2"]
+      },
+      {
+        "id": "data_5",
+        "question": "Describe an ETL pipeline you've built or would design for ingesting data from a third-party API into a data warehouse.",
+        "hints": ["Extract → Transform → Load", "Scheduling, error handling, idempotency"],
+        "good_answer_keywords": ["extract", "transform", "load", "schedule", "Airflow", "dbt", "error handling", "idempotency"]
+      },
+      {
+        "id": "data_6",
+        "question": "What is A/B testing and how do you determine if a result is statistically significant?",
+        "hints": ["Control vs treatment group", "p-value, confidence interval, sample size"],
+        "good_answer_keywords": ["control", "treatment", "p-value", "significance", "sample size", "hypothesis", "confidence interval"]
+      }
+    ]
+  },
+  "ml": {
+    "label": "Machine Learning / AI Engineer",
+    "questions": [
+      {
+        "id": "ml_1",
+        "question": "Explain the transformer architecture. What problem did it solve that RNNs couldn't?",
+        "hints": ["Self-attention mechanism", "Parallelization", "Long-range dependencies"],
+        "good_answer_keywords": ["attention", "self-attention", "parallelization", "positional encoding", "encoder", "decoder"]
+      },
+      {
+        "id": "ml_2",
+        "question": "What is RAG (Retrieval-Augmented Generation)? When would you use it over fine-tuning?",
+        "hints": ["External knowledge retrieval + LLM generation", "RAG = dynamic knowledge, fine-tuning = style/behavior"],
+        "good_answer_keywords": ["retrieval", "vector", "embedding", "generation", "fine-tuning", "knowledge base", "grounding"]
+      },
+      {
+        "id": "ml_3",
+        "question": "How do you evaluate the performance of an LLM in a production setting?",
+        "hints": ["Automated evals, human evals, task-specific metrics", "Latency, cost, accuracy tradeoffs"],
+        "good_answer_keywords": ["evaluation", "ROUGE", "BLEU", "human eval", "latency", "cost", "hallucination", "benchmark"]
+      },
+      {
+        "id": "ml_4",
+        "question": "What are the tradeoffs between using a large general-purpose LLM vs a smaller domain-specific model?",
+        "hints": ["Capability vs cost vs latency vs privacy"],
+        "good_answer_keywords": ["cost", "latency", "accuracy", "privacy", "fine-tuning", "domain-specific", "general purpose"]
+      },
+      {
+        "id": "ml_5",
+        "question": "Describe how you would build an MLOps pipeline to take a model from training to production.",
+        "hints": ["Data versioning, model registry, CI/CD for ML, monitoring"],
+        "good_answer_keywords": ["training", "registry", "deployment", "monitoring", "drift", "CI/CD", "versioning", "rollback"]
+      }
+    ]
+  },
+  "devops": {
+    "label": "DevOps / SRE / Cloud Engineer",
+    "questions": [
+      {
+        "id": "devops_1",
+        "question": "Explain the difference between containers and virtual machines. Why would you choose Docker over a VM?",
+        "hints": ["Kernel sharing vs full OS", "Lightweight, fast startup, portability"],
+        "good_answer_keywords": ["container", "VM", "kernel", "lightweight", "Docker", "portability", "startup time"]
+      },
+      {
+        "id": "devops_2",
+        "question": "What is Kubernetes and what problem does it solve? Name three key objects in a Kubernetes cluster.",
+        "hints": ["Container orchestration", "Pod, Service, Deployment, ConfigMap"],
+        "good_answer_keywords": ["orchestration", "Pod", "Service", "Deployment", "scaling", "self-healing", "scheduler"]
+      },
+      {
+        "id": "devops_3",
+        "question": "Walk me through a CI/CD pipeline you've designed or used. What are the key stages?",
+        "hints": ["Source → Build → Test → Deploy → Monitor"],
+        "good_answer_keywords": ["build", "test", "deploy", "artifact", "pipeline", "rollback", "GitHub Actions", "Jenkins"]
+      },
+      {
+        "id": "devops_4",
+        "question": "Your service just went down in production. Walk me through your incident response process.",
+        "hints": ["Detect, triage, mitigate, root cause, post-mortem"],
+        "good_answer_keywords": ["alert", "rollback", "logs", "metrics", "root cause", "post-mortem", "mitigation", "communication"]
+      },
+      {
+        "id": "devops_5",
+        "question": "What is Infrastructure as Code (IaC) and why is it important? Which tool would you recommend?",
+        "hints": ["Repeatable, version-controlled infra", "Terraform, Pulumi, CloudFormation"],
+        "good_answer_keywords": ["Terraform", "repeatable", "version control", "idempotent", "state", "drift", "CloudFormation"]
+      }
+    ]
+  },
+  "pm": {
+    "label": "Product Manager",
+    "questions": [
+      {
+        "id": "pm_1",
+        "question": "How do you prioritize features when you have more requests than engineering capacity?",
+        "hints": ["Frameworks: RICE, MoSCoW, Value vs Effort", "Stakeholder alignment"],
+        "good_answer_keywords": ["prioritization", "RICE", "impact", "effort", "stakeholder", "roadmap", "tradeoff"]
+      },
+      {
+        "id": "pm_2",
+        "question": "Tell me about a product you admire. What would you improve about it?",
+        "hints": ["Pick a real product", "Use data/user empathy to justify", "Specific, actionable improvement"],
+        "good_answer_keywords": ["user", "pain point", "metric", "improvement", "validation", "data", "hypothesis"]
+      },
+      {
+        "id": "pm_3",
+        "question": "How do you write a good user story? Give me an example for a feature of your choice.",
+        "hints": ["As a [user], I want [goal] so that [reason]", "Acceptance criteria"],
+        "good_answer_keywords": ["user story", "acceptance criteria", "as a", "so that", "done", "edge case"]
+      },
+      {
+        "id": "pm_4",
+        "question": "How would you define and measure the success of a new feature launch?",
+        "hints": ["Metrics: DAU, retention, conversion, NPS", "Pre-define success criteria"],
+        "good_answer_keywords": ["metric", "success", "KPI", "retention", "conversion", "A/B test", "baseline", "north star"]
+      },
+      {
+        "id": "pm_5",
+        "question": "Describe a time you had to push back on a stakeholder request. How did you handle it?",
+        "hints": ["Data-driven", "Alternative solutions", "Alignment over conflict"],
+        "good_answer_keywords": ["data", "alternative", "alignment", "tradeoff", "stakeholder", "empathy", "outcome"]
+      }
+    ]
+  },
+  "general": {
+    "label": "General / Freshers",
+    "questions": [
+      {
+        "id": "gen_1",
+        "question": "Tell me about yourself and why you're interested in this role.",
+        "hints": ["Structured: background → skills → why this role", "Be specific, not generic"],
+        "good_answer_keywords": ["projects", "skills", "interest", "motivation", "specific", "goal"]
+      },
+      {
+        "id": "gen_2",
+        "question": "Describe a challenging project you worked on. What was your contribution and what did you learn?",
+        "hints": ["STAR format: Situation, Task, Action, Result", "Quantify impact where possible"],
+        "good_answer_keywords": ["challenge", "solution", "contribution", "result", "learned", "team", "impact"]
+      },
+      {
+        "id": "gen_3",
+        "question": "Where do you see yourself in 3–5 years?",
+        "hints": ["Align with the company's growth track", "Show ambition with realism"],
+        "good_answer_keywords": ["growth", "skills", "leadership", "domain", "contribute", "learning"]
+      },
+      {
+        "id": "gen_4",
+        "question": "What's your biggest weakness, and how are you actively working on it?",
+        "hints": ["Be honest, not cliché", "Show self-awareness and a concrete improvement plan"],
+        "good_answer_keywords": ["weakness", "working on", "improving", "action", "feedback", "growth"]
+      },
+      {
+        "id": "gen_5",
+        "question": "Why should we hire you over other candidates?",
+        "hints": ["Your unique combination of skills + attitude", "Specific examples"],
+        "good_answer_keywords": ["unique", "skills", "experience", "attitude", "contribute", "example", "differentiate"]
+      }
+    ]
+  }
+}
