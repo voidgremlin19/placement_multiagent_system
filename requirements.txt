@@ -1,0 +1,12 @@
+# Core Agent & LLM Dependencies
+google-adk>=2.8.0
+google-genai>=2.22.0
+python-dotenv>=1.2.3
+
+# Resume Parser Dependencies
+pypdf>=6.17.0
+python-docx>=1.2.0
+
+# Optional: Vertex AI Agent Engine Deployment Dependencies
+# Uncomment if deploying to GCP Vertex AI:
+# google-cloud-aiplatform[adk,agent_engines]
